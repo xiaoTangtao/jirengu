@@ -1,5 +1,5 @@
 if [ -d $1 ]; then
-  echo 'error: dir exists 或者是你忘记输入你的项目名了'
+  echo 'error: dir exists or forget to enter your project name.'
   exit
 else
   mkdir $1
